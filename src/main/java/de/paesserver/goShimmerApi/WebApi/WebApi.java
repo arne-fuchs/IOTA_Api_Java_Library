@@ -62,8 +62,8 @@ public class WebApi {
     private String readResponse(HttpURLConnection httpURLConnection) throws IOException {
         BufferedReader in;
         switch (httpURLConnection.getResponseCode()) {
-            case 500, 404, 400 -> in = new BufferedReader(new InputStreamReader(httpURLConnection.getErrorStream()));
-            default -> in = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+            case 500: case 404: case 400 : in = new BufferedReader(new InputStreamReader(httpURLConnection.getErrorStream())); break;
+            default: in = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
         }
         String inputLine;
         StringBuilder content = new StringBuilder();
