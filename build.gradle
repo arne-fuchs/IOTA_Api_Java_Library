@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'de.paesserver'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+//create a single Jar with all dependencies
+task dataCollector(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'GoShimmer_Java_WebAPI_Library'
+    }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
