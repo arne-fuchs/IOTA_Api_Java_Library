@@ -14,3 +14,4 @@ Right now only the WebAPI is implemented
 Feel free to request more features!
 
 This is a Pre-Release and does only some basic calls and might be buggy.
+Documentation will follow.
