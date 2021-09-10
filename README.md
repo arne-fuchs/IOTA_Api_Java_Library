@@ -15,3 +15,10 @@ Feel free to request more features!
 
 This is a Pre-Release and does only some basic calls and might be buggy.
 Documentation will follow.
+
+## Donations
+If you want to keep me motivated to do more open source stuff you can donate me some IOTA's. Even very small amounts makes me happy:
+
+```
+iota1qqvrqjfscx5ax7vnt8mmtmzj30af3xf7zfm8t7lnaxyrt73awgqckz02upv
+```
