@@ -1,4 +1,4 @@
-package de.paesserver.goShimmerApi.WebApi;
+package de.paesserver.iotaApi.webApi;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
@@ -9,12 +9,12 @@ import java.net.HttpURLConnection;
 import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
 
-public class WebApi {
+public class NodeApi {
 
     private final String protocol;
     private final String baseURL;
 
-    public WebApi(String protocol, String host, int port) {
+    public NodeApi(String protocol, String host, int port) {
         this.protocol = protocol;
         baseURL = protocol + "://" + host + ":" + port + "/";
     }

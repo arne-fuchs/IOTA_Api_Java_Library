@@ -1,17 +1,17 @@
-package de.paesserver.goShimmerApi.WebApi;
+package de.paesserver.iotaApi.webApi;
 
 import java.io.*;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
-public class GoShimmerApi extends WebApi{
+public class WebApi extends NodeApi {
 
-    public GoShimmerApi(String protocol, String host, int port) {
+    public WebApi(String protocol, String host, int port) {
         super(protocol,host,port);
     }
 
-    public GoShimmerApi(String protocol, String host) {
+    public WebApi(String protocol, String host) {
         super(protocol,host,8081);
     }
 
