@@ -20,5 +20,5 @@ Documentation will follow.
 If you want to keep me motivated to do more open source stuff you can donate me some IOTA's. Even very small amounts makes me happy:
 
 ```
-iota1qzra8h59dldftvfq6r2aucpc0lpa6cyyrmn63uw68pjw8xudgz6hcu89udq
+iota1qqvrqjfscx5ax7vnt8mmtmzj30af3xf7zfm8t7lnaxyrt73awgqckz02upv
 ```
