@@ -6,6 +6,7 @@ Right now only the WebAPI is implemented
 
 ### Planned libraries for goshimmer plugins are:
 - [X] Standard WepApi Calls
+-> Faucet Requests doesn't work yet.
 
 - [ ] TXStream Plugin (Most api calls let the node crash so this is in a waiting position)
 
