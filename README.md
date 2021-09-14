@@ -1,9 +1,8 @@
 # IOTA_Api_Java_Library
 Simple Java WebAPI Library for the GoShimmer Software
 
-Needed Java Version:
 ```
->= 1.8
+Java Version >= 1.8
 ```
 
 ## Disclaimer
