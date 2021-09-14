@@ -5,6 +5,7 @@ import de.paesserver.iotaApi.message.Message;
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Broadcast {
     public final int port;
@@ -50,7 +51,7 @@ public class Broadcast {
         return thread;
     }
 
-    ArrayList<MessageEvent> classList = new ArrayList<>();
+    CopyOnWriteArrayList<MessageEvent> classList = new CopyOnWriteArrayList<>();
 
     public void register(MessageEvent client){
         classList.add(client);

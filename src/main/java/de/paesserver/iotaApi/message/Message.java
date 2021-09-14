@@ -78,7 +78,7 @@ public class Message {
 
                 currentLine = bufferedReader.readLine();
                 if(currentLine.contains("payload: ")){
-                    if(currentLine.substring(currentLine.indexOf(" ")).startsWith("Payload")){
+                    if(currentLine.substring(currentLine.indexOf(":")+2).startsWith("Payload")){
                         message.payload = new Payload();
                         currentLine = bufferedReader.readLine();
 
