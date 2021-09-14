@@ -6,6 +6,7 @@ Right now only the WebAPI is implemented
 
 ### Planned libraries for goshimmer plugins are:
 - [X] Standard WepApi Calls
+-> Faucet Requests doesn't work yet.
 
 - [ ] TXStream Plugin (Most api calls let the node crash so this is in a waiting position)
 
@@ -22,3 +23,6 @@ If you want to keep me motivated to do more open source stuff you can donate me 
 ```
 iota1qqvrqjfscx5ax7vnt8mmtmzj30af3xf7zfm8t7lnaxyrt73awgqckz02upv
 ```
+<p align="center">
+  <img src="https://paesserver.de/img/qr.png?raw=true" width="250" title="logo">
+</p>
